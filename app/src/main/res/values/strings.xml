@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PocketGuide</string>
+    <string name="main_open_button">START ADVENTURE</string>
+    <string name="destination">Destination</string>
+    <string name="destinationone">Paris</string>
+    <string name="destinationtwo">Lyon</string>
+    <string name="destinationthree">Marseille</string>
+    <string name="destinationfour">Toulouse</string>
+    <string name="image">IMAGE</string>
+    <string name="paris" />
+    <string name="imagebutton">IMAGEBUTTON</string>
+</resources>
