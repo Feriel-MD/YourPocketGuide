@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.open_button:
-                startActivity(new Intent(MainActivity.this, transaction.class));
+                startActivity(new Intent(MainActivity.this, MainActivity2.class));
                 //finish();
                 break;
         }
