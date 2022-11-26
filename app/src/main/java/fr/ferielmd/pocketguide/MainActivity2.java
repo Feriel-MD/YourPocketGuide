@@ -15,7 +15,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.gridview);
 
         btn = (ImageButton)findViewById(R.id.btn);
         btn1 = (ImageButton)findViewById(R.id.btn1);
