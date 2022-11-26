@@ -8,16 +8,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class MyViewHolder1 extends RecyclerView.ViewHolder {
+public class MyViewHolder extends RecyclerView.ViewHolder {
 
     ImageView imageView;
-    TextView nameView, emailView;
+    TextView nameView, lieuView, numView;
 
     @SuppressLint("CutPasteId")
-    public MyViewHolder1(@NonNull View itemView) {
+    public MyViewHolder(@NonNull View itemView) {
         super(itemView);
         imageView = itemView.findViewById(R.id.imageView);
         nameView = itemView.findViewById(R.id.name);
-        emailView = itemView.findViewById(R.id.email);
+        lieuView = itemView.findViewById(R.id.lieu);
+        numView = itemView.findViewById(R.id.num);
     }
 }

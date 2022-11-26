@@ -18,18 +18,29 @@
         android:layout_toEndOf="@+id/imageview"
         android:textColor="@color/black"
         android:textSize="30sp"
-        tools:text="Name"/>
+        tools:text="Benidict"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/email"
-        android:layout_marginTop="10dp"
+        android:id="@+id/lieu"
+        android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/imageview"
         android:layout_below="@+id/name"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:text="mokrani@gmail.com"/>
+        tools:text="19 Rue Sainte-Croix de la Bretonnerie, 75004 Paris"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/imageview"
+        android:layout_below="@+id/name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Téléphone : 01 42 76 91 37"/>
 
     <LinearLayout
         android:layout_width="match_parent"
