@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -15,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="275dp"
             android:contentDescription="@string/image"
-            android:src="@drawable/ville"/>
+            android:src="@drawable/city"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,11 +25,11 @@
             android:textColor="@color/black"
             android:textSize="30sp"
             android:layout_marginTop="12dp"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginStart="20dp"/>
 
         <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:rowCount="4"
             android:columnCount="2"
             android:layout_margin="5dp"
@@ -40,25 +41,25 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp"
-                android:layout_marginLeft="30dp"
-                android:layout_margin="10dp">
+                android:layout_marginStart="30dp"
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:layout_gravity="center">
+
                     <ImageButton
                         android:id="@+id/btn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/paris">
+                        android:background="@drawable/paris"
+                        android:contentDescription="@string/description"
+                        tools:ignore="DuplicateSpeakableTextCheck">
                     </ImageButton>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -66,7 +67,7 @@
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginStart="10dp"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -74,24 +75,23 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp"
-                android:layout_marginLeft="30dp"
-                android:layout_margin="10dp">
+                android:layout_marginStart="30dp"
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
                     <ImageButton
                         android:id="@+id/btn1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/lyon">
+                        android:background="@drawable/lyon"
+                        android:contentDescription="@string/description">
                     </ImageButton>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginStart="10dp"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -107,24 +107,23 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp"
-                android:layout_marginLeft="30dp"
-                android:layout_margin="10dp">
+                android:layout_marginStart="30dp"
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
                     <ImageButton
                         android:id="@+id/btn2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/marseille">
+                        android:background="@drawable/marseille"
+                        android:contentDescription="@string/description">
                     </ImageButton>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -132,7 +131,7 @@
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginStart="10dp"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -140,24 +139,23 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp"
-                android:layout_marginLeft="30dp"
-                android:layout_margin="10dp">
+                android:layout_marginStart="30dp"
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
                     <ImageButton
                         android:id="@+id/btn3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/nantes">
+                        android:background="@drawable/nantes"
+                        android:contentDescription="@string/description">
                     </ImageButton>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -165,7 +163,7 @@
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginStart="10dp"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -173,24 +171,23 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp"
-                android:layout_marginLeft="30dp"
-                android:layout_margin="10dp">
+                android:layout_marginStart="30dp"
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
                     <ImageButton
                         android:id="@+id/btn4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/toulouse">
+                        android:background="@drawable/toulouse"
+                        android:contentDescription="@string/description">
                     </ImageButton>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -198,7 +195,7 @@
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginStart="10dp"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -206,24 +203,22 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="5dp"
-                android:layout_marginLeft="30dp"
-                android:layout_margin="10dp">
+                android:layout_marginStart="30dp"
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
                     <ImageButton
                         android:id="@+id/btn5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/strasbourg1">
+                        android:background="@drawable/strasbourg1"
+                        android:contentDescription="@string/description">
                     </ImageButton>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -231,10 +226,8 @@
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginStart="10dp"/>
             </androidx.cardview.widget.CardView>
-
-
         </GridLayout>
     </LinearLayout>
 </ScrollView>

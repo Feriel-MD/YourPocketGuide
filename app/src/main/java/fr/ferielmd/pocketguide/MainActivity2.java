@@ -27,16 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this,Activity.class);
-                startActivity(i);
-                //finish();
-            }
-        });
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this,Activity.class);
+                Intent i = new Intent(MainActivity2.this, Activity.class);
                 startActivity(i);
                 //finish();
             }
@@ -45,7 +36,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this,Activity1.class);
+                Intent i = new Intent(MainActivity2.this, Activity1.class);
                 startActivity(i);
                 //finish();
             }

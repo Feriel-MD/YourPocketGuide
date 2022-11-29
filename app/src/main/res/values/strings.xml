@@ -9,4 +9,5 @@
     <string name="destinationfive">TOULOUSE</string>
     <string name="destinationsix">STRASBOURG</string>
     <string name="image">IMAGE</string>
+    <string name="description">Description</string>
 </resources>
