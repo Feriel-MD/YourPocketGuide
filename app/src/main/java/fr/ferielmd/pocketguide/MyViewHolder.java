@@ -16,7 +16,7 @@ public class MyViewHolder extends RecyclerView.ViewHolder {
     @SuppressLint("CutPasteId")
     public MyViewHolder(@NonNull View itemView) {
         super(itemView);
-        imageView = itemView.findViewById(R.id.imageView);
+        imageView = itemView.findViewById(R.id.imageview);
         nameView = itemView.findViewById(R.id.name);
         lieuView = itemView.findViewById(R.id.lieu);
         numView = itemView.findViewById(R.id.num);

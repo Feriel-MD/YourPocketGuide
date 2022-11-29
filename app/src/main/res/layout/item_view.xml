@@ -17,7 +17,7 @@
         android:id="@+id/name"
         android:layout_toEndOf="@+id/imageview"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="25sp"
         tools:text="Benidict"/>
 
     <TextView

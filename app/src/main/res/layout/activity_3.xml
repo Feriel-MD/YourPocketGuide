@@ -4,36 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity3">
+    tools:context=".Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="match_parent"
-            android:layout_height="289dp"
+            android:layout_width="wrap_content"
+            android:layout_height="243dp"
             android:backgroundTint="@color/white"
+            android:contentDescription="@string/description"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/restaurents" />
+            app:srcCompat="@drawable/restaurents"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <ImageButton
             android:id="@+id/imageButton1"
             android:layout_width="match_parent"
-            android:layout_height="291dp"
+            android:layout_height="242dp"
             android:backgroundTint="@color/white"
+            android:contentDescription="@string/description"
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/activites" />
 
         <ImageButton
             android:id="@+id/imageButton2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/hebergement"
+            android:layout_height="262dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/description"
             android:scaleType="fitCenter"
-            android:backgroundTint="@color/white"/>
+            app:srcCompat="@drawable/hebergement" />
     </LinearLayout>
 
 </RelativeLayout>
