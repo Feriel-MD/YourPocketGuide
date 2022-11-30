@@ -20,29 +20,29 @@
         android:layout_toEndOf="@+id/imageview"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="NOM"/>
+        tools:text="Enigmatic escape game Lyon"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lieu"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_toEndOf="@+id/imageview"
         android:layout_below="@+id/name"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="ADRESSE"/>
+        tools:text="11 Rue de la Part-Dieu"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/num"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="80dp"
         android:layout_toEndOf="@+id/imageview"
         android:layout_below="@+id/name"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="TELEPHONE"/>
+        tools:text="Téléphone : 09 86 15 94 55"/>
 
     <LinearLayout
         android:layout_width="match_parent"

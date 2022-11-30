@@ -20,7 +20,7 @@
         android:layout_toEndOf="@+id/imageview"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="NOM"/>
+        tools:text="Villa 216"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -31,18 +31,18 @@
         android:layout_below="@+id/name"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="ADRESSE"/>
+        tools:text="216 Avenue Félix Faure, 69003 Lyon"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/num"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="85dp"
         android:layout_toEndOf="@+id/imageview"
         android:layout_below="@+id/name"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="TELEPHONE"/>
+        tools:text="Téléphone : 07 86 58 02 03"/>
 
     <LinearLayout
         android:layout_width="match_parent"
