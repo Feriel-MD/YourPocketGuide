@@ -32,10 +32,19 @@ public class Activity extends AppCompatActivity {
             }
         });
 
+        imageButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Activity.this, RecyclerviewActivitesParis.class);
+                startActivity(i);
+                //finish();
+            }
+        });
+
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Activity.this, RecyclerViewHebergementsparis.class);
+                Intent i = new Intent(Activity.this, RecyclerviewHebergementsParis.class);
                 startActivity(i);
                 //finish();
             }
