@@ -26,7 +26,16 @@ public class Activity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Activity.this, RecyclerviewRestaurents.class);
+                Intent i = new Intent(Activity.this, RecyclerviewRestaurentsParis.class);
+                startActivity(i);
+                //finish();
+            }
+        });
+
+        imageButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Activity.this, RecyclerViewHebergementsparis.class);
                 startActivity(i);
                 //finish();
             }
