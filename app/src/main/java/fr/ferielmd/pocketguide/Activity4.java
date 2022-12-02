@@ -22,10 +22,10 @@ public class Activity4 extends AppCompatActivity {
         imageButton1 = (ImageButton)findViewById(R.id.imageButton1);
         imageButton2 = (ImageButton)findViewById(R.id.imageButton2);
 
-        /*imageButton.setOnClickListener(new View.OnClickListener() {
+        imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Activity4.this, RecyclerviewRestaurentsParis.class);
+                Intent i = new Intent(Activity4.this, RecyclerviewRestaurentsToulouse.class);
                 startActivity(i);
                 //finish();
             }
@@ -34,7 +34,7 @@ public class Activity4 extends AppCompatActivity {
         imageButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Activity4.this, RecyclerviewActivitesParis.class);
+                Intent i = new Intent(Activity4.this, RecyclerviewActivitesToulouse.class);
                 startActivity(i);
                 //finish();
             }
@@ -43,10 +43,10 @@ public class Activity4 extends AppCompatActivity {
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Activity4.this, RecyclerviewHebergementsParis.class);
+                Intent i = new Intent(Activity4.this, RecyclerviewHebergemetsToulouse.class);
                 startActivity(i);
                 //finish();
             }
-        });*/
+        });
     }
 }

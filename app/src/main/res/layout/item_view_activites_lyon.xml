@@ -26,18 +26,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lieu"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_toEndOf="@+id/imageview"
         android:layout_below="@+id/name"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="11 Rue de la Part-Dieu"/>
+        tools:text="11 Rue de la Part-Dieu, 69003 Lyon"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/num"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="85dp"
         android:layout_toEndOf="@+id/imageview"
         android:layout_below="@+id/name"
         android:textColor="@color/black"
