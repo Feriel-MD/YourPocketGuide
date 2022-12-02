@@ -19,11 +19,11 @@ public class RecyclerviewActivitesStrasbourg extends AppCompatActivity {
         RecyclerView recyclerView16 = findViewById(R.id.recyclerview16);
 
         List<Item16> items = new ArrayList<>();
-        items.add(new Item16("Enigmatic escape game Lyon","11 Rue de la Part-Dieu,\n69003 Lyon","Téléphone : 09 86 15 916 55",R.drawable.enigmatic));
-        items.add(new Item16("Musée des Confluences","86 Quai Perrache,\n69002 Lyon","Téléphone : 016 28 38 12 12",R.drawable.confluence));
-        items.add(new Item16("Patinoire Charlemagne","100 cours Charlemagne,\n69002 Lyon","Téléphone : 016 78 162 616 55",R.drawable.l_a_patinoire));
-        items.add(new Item16("Musée Miniature et Cinéma","60 rue Saint Jean,\n69005 Lyon","Téléphone : 016 72 00 216 77",R.drawable.museeminiature));
-        items.add(new Item16("Musée des Beaux-Arts de Lyon","20 Place des Terreaux,\n69001 Lyon","Téléphone : 016 72 10 17 160",R.drawable.beauxarts));
+        items.add(new Item16("La Cathédrale Notre-Dame","Pl. de la Cathédrale,\n67000 Strasbourg","Téléphone : 03 88 21 43 34",R.drawable.notre_dame_marseille));
+        items.add(new Item16("La Neustadt","La Neustadt,\n67000Strasbourg","Téléphone : 03 88 52 28 28",R.drawable.neustadt));
+        items.add(new Item16("Le Barrage Vauban","Pl. du Qur Blanc,\n67000 Strasbourg","Téléphone : 03 88 52 28 28",R.drawable.barrage));
+        items.add(new Item16("Le Musée d’Art moderne et contemporain"," Place Hans Jean Arp,\n67000 Strasbourg","Téléphone : 03 68 98 50 00",R.drawable.musee));
+        items.add(new Item16("Le Jardin des deux rives","3 rue des Cavaliers,\n67000 Strasbourg","Téléphone : 03 88 52 28 28",R.drawable.s_a_jardin));
 
 
         recyclerView16.setLayoutManager(new LinearLayoutManager(this));

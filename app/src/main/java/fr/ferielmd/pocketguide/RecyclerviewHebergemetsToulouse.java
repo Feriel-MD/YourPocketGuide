@@ -19,11 +19,11 @@ public class RecyclerviewHebergemetsToulouse extends AppCompatActivity {
         RecyclerView recyclerView14 = findViewById(R.id.recyclerview14);
 
         List<Item14> items = new ArrayList<>();
-        items.add(new Item14("Le Lotus","24 Rue Jean Palaprat,\n31000 Toulouse","Téléphone :  09 88 42 02 60",R.drawable.lotus));
-        items.add(new Item14("La Verriere","7 Rue Joutx Aigues,\n31000 Toulouse","Téléphone : 05 61 47 28 35",R.drawable.verriere));
-        items.add(new Item14("Le Baratie","39 Boulevard des Récollets,\n31400 Toulouse","Téléphone : 05 67 06 32 34",R.drawable.baratie));
-        items.add(new Item14("Restaurant Saveurs et Musiques Du Monde","69 Gd Rue Saint-Michel,\n31400 Toulouse","Téléphone : 07 85 74 67 99",R.drawable.saveur));
-        items.add(new Item14("Le Bouillon Languedoc","4 Rue du Languedoc,\n31000 Toulouse","Téléphone : 05 67 22 59 66",R.drawable.bouillon));
+        items.add(new Item14("The Social Hub Toulouse","1 Rue de Sébastopol,\n31000 Toulouse","Téléphone :  05 82 88 10 60",R.drawable.hub));
+        items.add(new Item14("Le Clocher de Rodez","14 & 15 Place Jeanne d'Arc,\n31000 Toulouse","Téléphone : 05 61 62 42 92",R.drawable.clocher));
+        items.add(new Item14("L’Insolite","40 Rue Paul Valéry,\n31000 Toulouse","Téléphone : 06 23 09 14 09",R.drawable.insolite));
+        items.add(new Item14("Eklo","181 Avenue de Grande Bretagne,\n31300 Toulouse","Téléphone :  05 82 95 92 31",R.drawable.eklo));
+        items.add(new Item14("Residhome","105 Boulevard de l'Embouchure,\n31200 Toulouse","Téléphone : 05 34 57 33 00",R.drawable.residhome));
 
 
         recyclerView14.setLayoutManager(new LinearLayoutManager(this));
