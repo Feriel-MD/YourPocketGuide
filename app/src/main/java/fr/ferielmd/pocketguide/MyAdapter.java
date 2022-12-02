@@ -9,24 +9,25 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class MyAdapter14 extends RecyclerView.Adapter<MyViewHolder14> {
+public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     Context context;
-    List<Item14> items;
-
-    public MyAdapter14(Context context, List<Item14> items) {
+    List<Item> items;
+    int layout;
+    public MyAdapter(Context context, List<Item> items, int layout) {
         this.context = context;
         this.items = items;
+        this.layout = layout;
     }
 
     @NonNull
     @Override
-    public MyViewHolder14 onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new MyViewHolder14(LayoutInflater.from(context).inflate(R.layout.item_view_hebergement_toulouse,parent,false));
+    public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return new MyViewHolder(LayoutInflater.from(context).inflate(layout,parent,false));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder14 holder, int position) {
+    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.nameView.setText(items.get(position).getName());
         holder.lieuView.setText(items.get(position).getLieu());
         holder.numView.setText(items.get(position).getNum());
@@ -39,3 +40,4 @@ public class MyAdapter14 extends RecyclerView.Adapter<MyViewHolder14> {
         return items.size();
     }
 }
+

@@ -13,21 +13,21 @@
         android:theme="@style/Theme.PocketGuide"
         tools:targetApi="31">
         <activity
-            android:name=".RecyclerviewHebergemetsStrasbourg"
+            android:name=".RecyclerviewHebergementsStrasbourg"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewHebergemetsToulouse"
+            android:name=".RecyclerviewHebergementsToulouse"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewHebergemetsNantes"
+            android:name=".RecyclerviewHebergementsNantes"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -55,21 +55,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewRestaurentsStrasbourg"
+            android:name=".RecyclerviewRestaurantsStrasbourg"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewRestaurentsToulouse"
+            android:name=".RecyclerviewRestaurantsToulouse"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewRestaurentsNantes"
+            android:name=".RecyclerviewRestaurantsNantes"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -83,21 +83,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewRestaurentsMarseille"
+            android:name=".RecyclerviewRestaurantsMarseille"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewHebergemetsMarseille"
+            android:name=".RecyclerviewHebergementsMarseille"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewHebergemetsLyon"
+            android:name=".RecyclerviewHebergementsLyon"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -111,7 +111,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewRestaurentsLyon"
+            android:name=".RecyclerviewRestaurantsLyon"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -181,7 +181,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RecyclerviewRestaurentsParis"
+            android:name=".RecyclerviewRestaurantsParis"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

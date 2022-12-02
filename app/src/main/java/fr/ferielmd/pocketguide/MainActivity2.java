@@ -17,17 +17,18 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gridview);
 
-        btn = (ImageButton)findViewById(R.id.btn);
-        btn1 = (ImageButton)findViewById(R.id.btn1);
-        btn2 = (ImageButton)findViewById(R.id.btn2);
-        btn3 = (ImageButton)findViewById(R.id.btn3);
-        btn4 = (ImageButton)findViewById(R.id.btn4);
-        btn5 = (ImageButton)findViewById(R.id.btn5);
+        btn = findViewById(R.id.btn);
+        btn1 = findViewById(R.id.btn1);
+        btn2 = findViewById(R.id.btn2);
+        btn3 = findViewById(R.id.btn3);
+        btn4 = findViewById(R.id.btn4);
+        btn5 = findViewById(R.id.btn5);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity2.this, Activity.class);
+                i.putExtra("view","paris");
                 startActivity(i);
                 //finish();
             }
@@ -36,7 +37,8 @@ public class MainActivity2 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this, Activity1.class);
+                Intent i = new Intent(MainActivity2.this, Activity.class);
+                i.putExtra("view","lyon");
                 startActivity(i);
                 //finish();
             }
@@ -45,7 +47,8 @@ public class MainActivity2 extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this,Activity2.class);
+                Intent i = new Intent(MainActivity2.this,Activity.class);
+                i.putExtra("view","marseille");
                 startActivity(i);
                 //finish();
             }
@@ -54,7 +57,8 @@ public class MainActivity2 extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this,Activity3.class);
+                Intent i = new Intent(MainActivity2.this,Activity.class);
+                i.putExtra("view","nantes");
                 startActivity(i);
                 //finish();
             }
@@ -63,7 +67,8 @@ public class MainActivity2 extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this,Activity4.class);
+                Intent i = new Intent(MainActivity2.this,Activity.class);
+                i.putExtra("view","toulouse");
                 startActivity(i);
                 //finish();
             }
@@ -72,7 +77,8 @@ public class MainActivity2 extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity2.this,Activity5.class);
+                Intent i = new Intent(MainActivity2.this,Activity.class);
+                i.putExtra("view","strasbourg");
                 startActivity(i);
                 //finish();
             }

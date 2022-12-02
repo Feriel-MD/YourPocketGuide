@@ -1,13 +1,13 @@
 package fr.ferielmd.pocketguide;
 
-public class Item17 {
+public class Item {
 
     String name;
     String lieu;
     String num;
     int image;
 
-    public Item17(String name, String lieu, String num, int image) {
+    public Item(String name, String lieu, String num, int image) {
         this.name = name;
         this.lieu = lieu;
         this.num = num;
