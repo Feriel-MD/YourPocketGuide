@@ -19,7 +19,7 @@ public class RecyclerviewActivitesMarseille extends AppCompatActivity {
         RecyclerView recyclerView7 = findViewById(R.id.recyclerview7);
 
         List<Item> items = new ArrayList<>();
-        items.add(new Item("Le musée des Civilisations de l'Europe et de la Méditerranée (MuCEM)"," 1 Esp. J4,\n13002 Marseille","Téléphone : 04 84 35 13 13",R.drawable.muceum));
+        items.add(new Item("MuCEM"," 1 Esp. J4,\n13002 Marseille","Téléphone : 04 84 35 13 13",R.drawable.muceum));
         items.add(new Item("La Basilique Notre-Dame-de-la-Garde","9 Pl. des Combattants,\n91310 Longpont-sur-Orgen","Téléphone : 01 69 01 02 24",R.drawable.notre_dame_marseille));
         items.add(new Item("La Cathédrale de la Major","Pl. de la Major,\n13002 Marseille","Téléphone : 04 91 90 52 87",R.drawable.majormarseille));
         items.add(new Item("Le Stade Vélodrome","3 Bd Michelet,\n13008 Marseille","Téléphone : 04 13 64 64 64",R.drawable.velodrome));
