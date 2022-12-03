@@ -19,11 +19,11 @@ public class RecyclerviewHebergementsStrasbourg extends AppCompatActivity {
         RecyclerView recyclerView17 = findViewById(R.id.recyclerview17);
 
         List<Item> items = new ArrayList<>();
-        items.add(new Item("Enigmatic escape game Lyon","11 Rue de la Part-Dieu,\n69003 Lyon","Téléphone : 09 86 15 917 55",R.drawable.enigmatic));
-        items.add(new Item("Musée des Confluences","86 Quai Perrache,\n69002 Lyon","Téléphone : 017 28 38 12 12",R.drawable.confluence));
-        items.add(new Item("Patinoire Charlemagne","100 cours Charlemagne,\n69002 Lyon","Téléphone : 017 78 172 617 55",R.drawable.l_a_patinoire));
-        items.add(new Item("Musée Miniature et Cinéma","60 rue Saint Jean,\n69005 Lyon","Téléphone : 017 72 00 217 77",R.drawable.museeminiature));
-        items.add(new Item("Musée des Beaux-Arts de Lyon","20 Place des Terreaux,\n69001 Lyon","Téléphone : 017 72 10 17 170",R.drawable.beauxarts));
+        items.add(new Item("The People","7 Rue de la Krutenau,\n67000 Strasbourg","Téléphone : 09 78 36 20 27",R.drawable.s_h_people));
+        items.add(new Item("Aloft Strasbourg Etoile","2 Av. du Rhin,\n67100 Strasbourg","Téléphone : 03 67 70 78 10",R.drawable.s_h_aloft));
+        items.add(new Item("Citadines Eurometropole","11 Allée de l’Euro,\n67205 Strasbourg","Téléphone : 03 67 70 78 00",R.drawable.s_h_citadines));
+        items.add(new Item("Cerise Strasbourg","5 Rue Job,\n67100 Strasbourg","Téléphone : 03 88 40 21 08",R.drawable.s_h_cerise));
+        items.add(new Item("Le Relais de l'Orangerie","5 allée Spach,\n67000 Strasbourg","Téléphone : 06 29 32 05 23",R.drawable.s_h_relais));
 
 
         recyclerView17.setLayoutManager(new LinearLayoutManager(this));
