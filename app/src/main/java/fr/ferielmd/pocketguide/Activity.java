@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class Activity extends AppCompatActivity {
-
+//Initialisation des variables
     ImageButton imageButton;
     ImageButton imageButton1;
     ImageButton imageButton2;
@@ -25,7 +25,8 @@ public class Activity extends AppCompatActivity {
         imageButton = findViewById(R.id.imageButton);
         imageButton1 = findViewById(R.id.imageButton1);
         imageButton2 = findViewById(R.id.imageButton2);
-        /* Permet de savoir sur quelle ville on a appuyé afin de savoir quelle recyclerview générer ensuite */
+        /* Permet de savoir sur quelle ville on a appuyé afin de savoir quelle recyclerview générer ensuite
+        Nous récupérons la recyclerView associée */
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String value = extras.getString("view");
@@ -73,7 +74,7 @@ public class Activity extends AppCompatActivity {
             }
 
         }
-
+        /*méthode écouteur d'événement qui est invoquée seulement lorsqu’un appuie sur le bouton est détecté.*/
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

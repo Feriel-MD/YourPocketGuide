@@ -9,6 +9,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/* *******************************************
+On récupère le format sous lequel nous allons afficher les informations
+Permet de faire la liaison entre la vue RecyclerView et la liste d'infomations données
+On fait appel à la class MyViewHolder
+**********************************************/
+
 public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     Context context;

@@ -8,6 +8,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+/* *******************************************
+Affichage d ela liste des différentes villes
+On initialise de boutons auxquels on affecte le nom des villes
+**********************************************/
+
 public class MainActivity2 extends AppCompatActivity {
     ImageButton btn ,btn1,btn2,btn3,btn4,btn5;
 

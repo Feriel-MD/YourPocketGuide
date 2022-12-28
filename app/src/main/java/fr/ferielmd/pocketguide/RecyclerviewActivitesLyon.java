@@ -9,6 +9,11 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
+/* *******************************************
+Pour toutes les RecyclerView, on fait appel aux éléments définis dans la classe item
+que l'on complète
+**********************************************/
+
 public class RecyclerviewActivitesLyon extends AppCompatActivity {
 
     @Override

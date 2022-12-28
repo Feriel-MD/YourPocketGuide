@@ -8,6 +8,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+/* *******************************************
+On représente virtuellement un élément de lal liste de données dans le RecyclerView
+**********************************************/
+
 public class MyViewHolder extends RecyclerView.ViewHolder {
 
     ImageView imageView;

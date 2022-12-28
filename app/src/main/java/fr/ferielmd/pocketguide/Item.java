@@ -1,7 +1,11 @@
 package fr.ferielmd.pocketguide;
 
 public class Item {
-
+/* *******************************************
+Pour chacune des RecyclerView, nous initialisons 3 string et une int
+Grâce à des Get et Return on récupère puis on affecte l'information correspondante afin d'afficher
+correctement dans la RecyclerView
+**********************************************/
     String name;
     String lieu;
     String num;
